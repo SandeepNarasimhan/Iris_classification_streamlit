@@ -1,0 +1,4 @@
+# frontend/requirements.txt
+streamlit==1.2.0
+json
+requests
