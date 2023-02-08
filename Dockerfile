@@ -11,4 +11,4 @@ RUN pip install -r requirements.txt
 
 #EXPOSE 8501
 
-CMD ["streamlit", "run", "main.py", "--server.fileWatcherType none"]
+CMD ["streamlit", "run", "main.py", "--server.fileWatcherType=none"]
